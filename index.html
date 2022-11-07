@@ -5,7 +5,7 @@
     <script src="https://unpkg.com/feather-icons"></script>
 
     <head>
-        <title> Ethan Boone's Website</title>
+        <title> Ethan Boone</title>
     </head>
 
     <body bo>
@@ -15,29 +15,37 @@
             </div>
 
             <div class="navbar-middle">
-                <a class="navbar-links">About Me </a>
-                <a class="navbar-links">Projects </a>
+                <a class="navbar-links" href="#about-me">About Me </a>
+                <a class="navbar-links" href="#projects">Projects </a>
                 <a class="navbar-links">Blog </a>
             </div>
 
             <div class="navbar-right">
-                <a href="https://www.linkedin.com/in/ethan-boone-b07b95216/"> 
+                <a title="My Linkedin" href="https://www.linkedin.com/in/ethan-boone-b07b95216/"> 
                     <img src="media/feather/linkedin.svg">
                 </a>
-                <a href="https://github.com/ethancboone"> 
+                <a title="My GitHub" href="https://github.com/ethancboone"> 
                     <img src="media/feather/github.svg">
                 </a>
             </div>
         </div>
 
         <div class="main">
-            <div class="about-me">
-                <h1>Ethan Boone</h1>
-                <h2>Data Analysis, Machine Learning, Aerodynamics, and Aviation</h2>
-                <h2>M.S. Operations Research Student at the Naval Postgraduate School</h2>
+            <div class="about-me" id="about-me">
+                <div class="about-me-info">
+                    <h1>Ethan Boone</h1>
+                    <h2>Data Analysis, Machine Learning, Aerodynamics, and Aviation</h2>
+                    <h2>M.S. Operations Research Student at the Naval Postgraduate School</h2>
+                </div>
+                
+                <div class="about-me-arrow">
+                    <a href="#projects">
+                        <img src="media/feather/chevrons-down.svg" class="continue-arrow">
+                    </a>
+                </div>
             </div>
 
-            <div class="projects">
+            <div class="projects" id="projects">
                 <div class="projects-header">
                     <h2>Projects</h2>
                 </div>
@@ -45,7 +53,6 @@
                 <div class="project">
                     <a class="project-link"> Masters Thesis</a>
                 </div>
-
 
                 <div class="project">
                     <a class="project-link"> Masters Thesis</a>
