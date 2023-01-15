@@ -3,7 +3,7 @@ title: Ethan
 subtitle: by HTML5 UP
 email: ethancboone@gmail.com
 description: Student Naval Aviator, Data Scientist, and Aerospace Engineer<br /> Welcome to my site!.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: 
 author:
 street_address:
